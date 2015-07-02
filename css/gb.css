@@ -66,6 +66,8 @@ header .container {
 	text-align: center;
 	font-weight: bold; 
 	font-family: lato;
+	background-color: rgb(255,153,0);
+	padding-bottom: 50px;
 }
 
 #about_text{
