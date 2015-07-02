@@ -1,25 +1,5 @@
 /********* nav bar **********/
-@media(max-width:768px){
-	#profile_img{
-		margin-top: 45px;
-	}
-	.navbar-header .navbar-brand{
-		font-size: 1.75em;
-	}
-}
 
-@media(min-width:768px) {
-	
-	.navbar-header .navbar-brand{
-		font-size: 2.5em;
-	}
-	.navbar-fixed-top{
-		padding:25px 0px;
-	}
-	#intro{
-		margin-top: 100px;
-	}
-}
 .navbar-fixed-top{
 	background-color: rgb(80,200,120);
 }
@@ -47,6 +27,14 @@
 
 
 /*CONTENT*/
+.section_header{
+	font-size: 3em;
+}
+
+header .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
 
 #intro{
 	height:100%;
@@ -63,7 +51,7 @@
 	color:#FFFFFF;	
 }
 
-#skills{
+#skill_intro{
 	font-size: 3em;
 	font-weight: bold; 
 	font-family: lato;
@@ -74,20 +62,30 @@
 
 #about{
 	height:100%;
-	margin-top: 100px;
+	padding-top: 150px;
 	text-align: center;
+	font-weight: bold; 
+	font-family: lato;
+}
+
+#about_text{
+	font-size: 1.5em;
 }
 
 #skills{
 	height:100%;
-	margin-top: 150px;
+	padding-top: 150px;
 	text-align: center;
+	font-weight: bold; 
+	font-family: lato;
 }
 
 #contact{
 	height:100%;
-	margin-top: 150px;
+	padding-top: 150px;
 	text-align: center;
+	font-weight: bold; 
+	font-family: lato;
 }
 
 #profile_img{
@@ -102,5 +100,33 @@ span.glyphicon-music{
 	font-size: 2.5em;
 	padding: 25px;
 }
-	
 
+
+@media(min-width:768px) {
+	
+	.navbar-header .navbar-brand{
+		font-size: 2.5em;
+	}
+	.navbar-fixed-top{
+		padding:25px 0px;
+	}
+	#intro{
+		margin-top: 100px;
+	}
+	header .container {
+	    padding-top: 50px;
+	    padding-bottom: 100px;
+	}
+}
+
+@media(max-width:768px){
+	/*#profile_img{
+		margin-top: 45px;
+	}*/
+	.navbar-header .navbar-brand{
+		font-size: 1.75em;
+	}
+	#name{
+		font-size: 3em;
+	}
+}
