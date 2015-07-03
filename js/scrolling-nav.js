@@ -14,8 +14,11 @@ $(function() {
         if($anchor.attr('href') == "#page-top"){
             var offset = 100;
         }
+        // else if($anchor.attr('href') == "#about"){
+        //    var offset = 80;
+        // }
         else{
-            var offset = 0;
+            var offset = 80;
         }
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - offset

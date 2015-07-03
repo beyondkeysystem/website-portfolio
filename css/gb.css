@@ -1,13 +1,14 @@
 /********* nav bar **********/
 
 .navbar-fixed-top{
-	background-color: rgb(80,200,120);
-}
+/*	background-color: rgb(80,200,120);
+*/}
 
 .navbar-header .navbar-brand{
-	color:#FFFFFF;
+	/*color:#FFFFFF;*/
 	font-weight: bold; 
 	font-family: lato;
+	color:black;
 }
 
 .navbar-default{
@@ -15,10 +16,11 @@
 }
 
 .navbar-default .navbar-nav > li > a{
-	color:white;
+/*	color:white;*/
 	font-size: 2em;
 	font-weight: bold; 
-	font-family: lato;	
+	font-family: lato;
+	color:black;	
 }
 
 .navbar-collapse {
@@ -36,10 +38,17 @@ header .container {
     padding-bottom: 50px;
 }
 
+header{
+	background: url('../img/backgroundphoto.jpg');
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-position: center;
+}
+
 #intro{
 	height:100%;
 	text-align: center;
-	background-color: rgb(32,194,249);
+	/*background-color: rgb(32,194,249);*/
 	padding: 40px; 
 
 }
@@ -48,25 +57,27 @@ header .container {
 	font-size: 5em;
 	font-weight: bold; 
 	font-family: lato;
-	color:#FFFFFF;	
+	/*color:#FFFFFF;	*/
 }
 
 #skill_intro{
 	font-size: 3em;
 	font-weight: bold; 
 	font-family: lato;
-	color:#FFFFFF;	
+	/*color:#FFFFFF;*/	
 	
 	
 }
 
 #about{
 	height:100%;
-	padding-top: 150px;
-	text-align: center;
+/*	padding-top: 150px;
+*/	text-align: center;
+	padding-top: 28px;
 	font-weight: bold; 
 	font-family: lato;
-	background-color: rgb(255,153,0);
+	/*background-color: rgb(255,153,0);*/
+	background-color: rgb(32,194,249);
 	padding-bottom: 50px;
 }
 
@@ -76,10 +87,13 @@ header .container {
 
 #skills{
 	height:100%;
-	padding-top: 150px;
+	padding-top: 28px;
 	text-align: center;
 	font-weight: bold; 
 	font-family: lato;
+	background-color: rgb(255,235,205); 
+;
+
 }
 
 #contact{
