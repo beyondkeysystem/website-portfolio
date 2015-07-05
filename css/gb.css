@@ -109,9 +109,9 @@ header{
 #profile_img{
   margin-left: auto;
   margin-right: auto;
-  border-radius: 200px;
-  height: 315px;
-  width: 348px;
+  border-radius: 350px;
+  height: 200px;
+  width: 200px;
 }
 
 .skills_lg_12{
@@ -127,6 +127,13 @@ span.glyphicon-music{
 	padding: 25px;
 }
 
+footer{
+	text-align: center;
+	font-weight: bold; 
+	font-family: lato;
+	padding: 30px;
+  	font-size: 1.25em;
+}
 
 @media(min-width:768px) {
 	
