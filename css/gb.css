@@ -98,10 +98,12 @@ header{
 
 #contact{
 	height:100%;
-	padding-top: 150px;
+	padding-top: 28px;
 	text-align: center;
 	font-weight: bold; 
 	font-family: lato;
+	background-color: rgb(222,177,84); 
+
 }
 
 #profile_img{
@@ -110,6 +112,14 @@ header{
   border-radius: 200px;
   height: 315px;
   width: 348px;
+}
+
+.skills_lg_12{
+	margin-bottom: 40px;
+}
+
+.academic_experience{
+	margin-bottom: 5px;
 }
 
 span.glyphicon-music{
