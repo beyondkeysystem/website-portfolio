@@ -18,7 +18,13 @@ $(function() {
         //    var offset = 80;
         // }
         else{
-            var offset = 80;
+            if($(window).width() < 768){
+                var offset = 45;
+            }
+            else{
+                
+                var offset = 80;
+            }
         }
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - offset
