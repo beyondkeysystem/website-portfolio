@@ -83,6 +83,7 @@ header{
 
 #about_text{
 	font-size: 1.5em;
+	padding: 40px;
 }
 
 #skills{
@@ -109,6 +110,7 @@ header{
 #profile_img{
   margin-left: auto;
   margin-right: auto;
+  border: solid black 2px;
   border-radius: 350px;
   height: 200px;
   width: 200px;
@@ -122,9 +124,37 @@ header{
 	margin-bottom: 5px;
 }
 
+.social_container{
+	padding:25px;
+}
+
+#github_button{
+	margin-right: 50px;
+}
+
+#email_text{
+	padding:25px;
+}
+
+.contact_content{
+	font-size: 1.5em;
+}
+
+.email_button{
+	width: 250px;
+}
+
 span.glyphicon-music{
 	font-size: 2.5em;
 	padding: 25px;
+}
+
+.social_container a{
+	color:rgb(91,192,222);
+}
+
+.social_container a:hover{
+	color:green;
 }
 
 footer{
@@ -149,7 +179,7 @@ footer{
 	}
 	header .container {
 	    padding-top: 50px;
-	    padding-bottom: 300px;
+	    padding-bottom: 450px;
 	}
 }
 
@@ -162,5 +192,12 @@ footer{
 	}
 	#name{
 		font-size: 3em;
+	}
+	#skill_intro{
+		font-size: 2em;
+	}
+	header .container {
+	    padding-top: 50px;
+	    padding-bottom: 250px;
 	}
 }
