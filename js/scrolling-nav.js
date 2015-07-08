@@ -25,6 +25,10 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    // Closes the Responsive Menu on Menu Item Click
+    // $('.navbar-collapse ul li a').click(function() {
+    //     $('.navbar-toggle:visible').click();
+    // });
 });
 // $(function() {
 //     $('body').on('click', '.page-scroll a', function(event) {
@@ -35,3 +39,4 @@ $(function() {
 //         event.preventDefault();
 //     });
 // }); 
+

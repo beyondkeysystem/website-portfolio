@@ -28,7 +28,7 @@
 }
 
 
-/*CONTENT*/
+/*******CONTENT***********/
 .section_header{
 	font-size: 3em;
 }
@@ -135,6 +135,7 @@ footer{
   	font-size: 1.25em;
 }
 
+/********MEDIA QUERIES ******************/
 @media(min-width:768px) {
 	
 	.navbar-header .navbar-brand{
@@ -148,7 +149,7 @@ footer{
 	}
 	header .container {
 	    padding-top: 50px;
-	    padding-bottom: 100px;
+	    padding-bottom: 300px;
 	}
 }
 
